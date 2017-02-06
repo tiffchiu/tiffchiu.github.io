@@ -51,5 +51,37 @@
     <li>Lands End</li>
   </ul>
   </main>
+
+  <footer>
+    <h4>Submit an item for the bucketlist</h4>
+    <form name="bucketlist" action="success.html" method="post">
+  <fieldset>
+    <div>
+      <label>Name</label>
+      <input type="text" name="name">
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input type="email" name="email">
+    </div>
+
+    <div>
+      <label>Category</label>
+      <select name="category">
+        <option value="restaurants">Restaurants</option>
+        <option value="desserts">Desserts</option>
+        <option value="landmarks">Landmarks</option>
+        <option value="hikes">Hikes</option>
+      </select>
+    </div>
+
+    <textarea name="textarea"
+   rows="10" cols="50">What is your suggestion?</textarea>
+  </fieldset>
+  
+  <button type="submit">Submit</button>
+</form>
+  </footer>
 </body>
 </html>
