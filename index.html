@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SF Bucket List</title>
+</head>
+<body>
+<h1>SF Bucket List</h1>
+<nav>
+  <a href="#restaurants">Restaurants</a> | <a href="#desserts">Desserts</a> | <a href="#landmarks">Landmarks</a> | <a href="#hikes">Hikes</a>
+</nav>
+
+<p><img src="sf.jpg" alt="The Golden Gate Bridge"></p>
+
+<main>
+  <a id="restaurants">
+  <h3>Restaurants</h3>
+  <p>Some top SF restaurants</p>
+  <ul>
+    <li>State Bird Provisions</li>
+    <li>French Laundry</li>
+    <li>The House</li>
+    <li>Swan Oyster Depot</li>
+    <li>House of Prime Rib</li>
+  </ul>
+  </a>
+
+  <a id="desserts">
+  <h3>Desserts</h3>
+  <p>To satisfy that sweet tooth</p>
+  <ul>
+    <li>Tartine Bakery</li>
+    <li>Mr. Holmes Bakehouse</li>
+    <li>Bob's Donuts</li>
+  </ul>
+  </a>
+
+  <a id="landmarks">
+  <h3>Landmarks</h3>
+  <p>Places to go</p>
+  <ul>
+    <li>Alcatraz</li>
+    <li>Dolores Park</li>
+    <li>Angel Island</li>
+  </ul>
+  </a>
+
+  <a id="hikes">
+  <h3>Hikes</h3>
+  <p>One of the most scenic cities in the world</p>
+  <ul>
+    <li>Big Sur</li>
+    <li>Yosemite National Park</li>
+    <li>Lands End</li>
+  </ul>
+  </a>
+  </main>
+
+  <footer>
+    <h4>Submit an item for the bucketlist</h4>
+    <form name="bucketlist" action="success.html" method="post">
+      <fieldset>
+        <div>
+          <label>Name</label>
+          <input type="text" name="name">
+        </div>
+
+        <div>
+          <label>Email</label>
+          <input type="email" name="email">
+        </div>
+
+        <div>
+          <label>Category</label>
+          <select name="category">
+            <option value="restaurants">Restaurants</option>
+            <option value="desserts">Desserts</option>
+            <option value="landmarks">Landmarks</option>
+            <option value="hikes">Hikes</option>
+          </select>
+        </div>
+
+        <textarea name="textarea"
+       rows="10" cols="50">What is your suggestion?</textarea>
+      </fieldset>
+  
+      <button type="submit">Submit</button>
+    </form>
+</footer>
+
+<h4>Site Comparison</h4>
+<a href="https://www.bucketlist.net/life-goals/" target="_blank">Bucketlist</a>
+<p>This site has a lot more features on it than mine - each link provides additional information, and it also gives you the option to upvote/downvote items on the list. Another huge bonus is the ability to create user accounts on this site.</p>
+</body>
+</html>
