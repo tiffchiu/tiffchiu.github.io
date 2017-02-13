@@ -1,1 +1,72 @@
-body {background:blue}
+html {
+  background-image: url("sf-bg.jpg");
+}
+
+body {
+    background-color: white;
+    width: 1080px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    font-family: Helvetica;
+}
+
+footer {
+	text-align: center;
+}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav {
+	text-align: center;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+main {
+	padding-left: 15px;
+}
+
+.category {
+	display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    vertical-align: text-top;
+    padding: 20px;
+    margin: 2px;
+    width: 20%;
+    min-height: 200px;
+}
+
+#restaurants {
+	background-color: lightblue;
+}
+
+#desserts {
+	background-color: lightgray;
+}
+
+#landmarks {
+	background-color: lightblue;
+}
+
+#hikes {
+	background-color: lightgray;
+}
+
+
+@media screen and (max-width: 1180px) {
+  body {
+    width: 90%;
+    text-align: center;
+  }
+}
